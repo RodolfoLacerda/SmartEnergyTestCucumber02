@@ -4,7 +4,7 @@
   "description": "Template pra usar Cucumberjs com Nightwatch",
   "main": "app.js",
   "scripts": {
-    "test": "mkdirp report && cucumber-js --require cucumber.conf.js --require steps --format node_modules/cucumber-pretty --format json:report/cucumber_report.json",
+    "test": "cucumber-js --require cucumber.conf.js --require steps --format node_modules/cucumber-pretty --format json:report/cucumber_report.json",
     "test:ci": "./node_modules/.bin/nightwatch --env=headless"
   },
   "author": "Fernando Papito",
