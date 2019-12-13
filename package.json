@@ -11,16 +11,17 @@
   "license": "MIT",
   "devDependencies": {
     "chromedriver": "^77.0.0",
-    "cucumber": "^6.0.3",
+    "cucumber": "^6.0.5",
     "cucumber-html-reporter": "^5.0.2",
     "cucumber-pretty": "^6.0.0",
     "faker": "^4.1.0",
     "mkdirp": "^0.5.1",
-    "nightwatch": "^1.2.4",
-    "nightwatch-api": "^2.3.0"
+    "nightwatch": "^1.3.2",
+    "nightwatch-api": "^2.3.0",
+    "update": "^0.7.4"
   },
   "dependencies": {
-    "cucumber-expressions": "^8.2.1",
+    "cucumber-expressions": "^8.3.0",
     "nightwatch-cucumber-editor": "^1.0.1"
   }
 }
